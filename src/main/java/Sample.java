@@ -7,7 +7,7 @@ public class Sample {
 	}
 	
 	public static void main(String[] args) {
-		System.out.println("hello Sample!!!");]
+		System.out.println("hello Sample!!!");
 		Sample sample = new Sample();
 		System.out.println("==>" + sample.calc(20, 30));
 	}
