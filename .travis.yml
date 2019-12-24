@@ -2,4 +2,4 @@ language: java
 jdk:
   - openjdk8
 install: true
-script: "mvn -X test"
+script: "mvn test"
