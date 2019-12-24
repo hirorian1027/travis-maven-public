@@ -5,6 +5,6 @@ public class SampleTest {
     @Test
     public void index() throws Exception {
     	Sample sample = new Sample();
-        assertEquals(sample.calc(1, 2), 3, "計算が間違っています");
+        assertEquals(sample.calc(1, 2), 4, "計算が間違っています");
     }
 }
