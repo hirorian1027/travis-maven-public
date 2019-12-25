@@ -3,3 +3,9 @@ jdk:
   - openjdk8
 install: true
 script: "mvn test"
+notifications:
+  email:
+    recipients:
+    - hirorian1027@gmail.com
+    on_success: always
+    on_failure: always
