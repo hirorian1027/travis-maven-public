@@ -7,6 +7,7 @@ public class SampleTest {
     	Sample sample = new Sample();
         assertEquals(3, sample.calc(1, 2), "計算が間違っています");
     }
+/**
     @Test
     public void calcSuccess2() throws Exception {
     	Sample sample = new Sample();
@@ -17,4 +18,5 @@ public class SampleTest {
     	Sample sample = new Sample();
         assertEquals(0, sample.calc(0, 0), "計算が間違っています");
     }
+*/
 }
