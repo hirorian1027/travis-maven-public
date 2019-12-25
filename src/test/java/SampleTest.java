@@ -3,8 +3,18 @@ import org.junit.jupiter.api.Test;
 
 public class SampleTest {
     @Test
-    public void index() throws Exception {
+    public void calcSuccess1() throws Exception {
     	Sample sample = new Sample();
-        assertEquals(sample.calc(1, 2), 4, "計算が間違っています");
+        assertEquals(3, sample.calc(1, 2), "計算が間違っています");
+    }
+    @Test
+    public void calcSuccess2() throws Exception {
+    	Sample sample = new Sample();
+        assertEquals(-3, sample.calc(-1, -2), "計算が間違っています");
+    }
+    @Test
+    public void calcSuccess3() throws Exception {
+    	Sample sample = new Sample();
+        assertEquals(0, sample.calc(0, 0), "計算が間違っています");
     }
 }
